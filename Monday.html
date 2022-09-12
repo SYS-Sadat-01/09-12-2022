@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monday</title>
+    <style>
+        input{
+          border: 7px solid gray;
+    
+        }
+
+        input.valid{
+            border-color: green;
+        }
+
+        input.invalid{
+            border-color: red;
+        }
+        input + p{
+            opacity: 0;
+        }
+        input.invalid + p{
+            color: red;
+            border-color: red;
+            opacity: 1;
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <center><h1>JAVASCRIPT TUTORIAL</h1><hr></center>
+    
+    <input type="text" name="email" id="email">
+    <p>Invalid Email! Please Follow our Instruction (example@eg.com)</p>
+    <input type="number" name="phone" id="phone">
+    <p>Invalid Number! Please Follow our Instruction (1 234 567 890)</p>
+    <input type="password" name="pass" id="pass">
+    <p>Invalid Password! Please Follow our Instruction (******)</p>
+</body>
+<script src="./js.js">
+
+</script>
+</html>
